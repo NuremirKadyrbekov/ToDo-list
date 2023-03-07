@@ -1,0 +1,139 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1523634921619-37ce98c1877f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainBlock 
+{
+    width: 800px;
+    background-color: rgba(139, 136, 123, 0.548);
+    opacity: 0.9;
+    box-shadow: 0 0 30px black;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 3px;
+    
+}
+h1
+{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow:  5px 5px 1px rgba(0, 0, 0, 0.144);
+}
+.mainBlock div 
+{
+    display: grid;
+    grid-template-columns:  3fr 1fr 1fr;
+    grid-column-gap:5px;
+    
+}
+.text
+{
+    height: 2em;
+    text-align: center ;
+
+}
+.h11
+{
+    font-size: 18px;
+    text-shadow: none;
+    flex-wrap: wrap;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 575px) {
+    .mainBlock{
+        width: 400px;
+    }
+    .res2
+    {
+        flex-wrap: wrap;
+    }
+    .img2
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .img
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .h11{
+        font-size: 12px;
+    }
+    body{
+        background-color: #ebebeb;
+    }
+
+}
+@media (max-width: 475px) {
+    .mainBlock{
+        width: 300px;
+    }
+    .res2
+    {
+        flex-wrap: wrap;
+    }
+    .img2
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .img
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .h11{
+        font-size: 12px;
+    }
+    body{
+        background-color: #ebebeb;
+    }
+
+}
+@media (max-width: 375px) {
+    .mainBlock{
+        width: 260px;
+    }
+    .img2
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .img
+    {
+        margin-left: 0px;
+        width: 10px;
+        height: 20px;
+    }
+    .h11{
+        font-size: 12px;
+    }
+    body{
+        background-color: #ebebeb;
+    }
+}
